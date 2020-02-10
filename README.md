@@ -1,5 +1,3 @@
-## Mega Hack - Shawee
-
 ### Padrões de escrita
 
 1. camelCase
