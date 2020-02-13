@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "nodemon src/server.js --ignore __tests__"
+    "dev": "nodemon src/server.js --ignore __tests__",
+    "test": "jest"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -16,8 +17,14 @@
     "sequelize": "^5.21.4"
   },
   "devDependencies": {
+    "cross-env": "^7.0.0",
+    "faker": "^4.1.0",
+    "husky": "^4.2.3",
+    "jest": "^25.1.0",
+    "lint-staged": "^10.0.7",
     "nodemon": "^2.0.2",
     "sequelize-cli": "^5.5.1",
-    "sqlite3": "^4.1.1"
+    "sqlite3": "^4.1.1",
+    "supertest": "^4.0.2"
   }
 }
