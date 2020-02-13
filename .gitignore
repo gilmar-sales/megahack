@@ -6,3 +6,4 @@ yarn.lock
 
 __tests__/database.sqlite
 __tests__/coverage
+
