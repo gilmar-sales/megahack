@@ -1,9 +1,9 @@
 node_modules
 yarn.lock
+yarn-error.lock
 
 .env
 .env.test
 
-__tests__/database.sqlite
-__tests__/coverage
-
+**/__tests__/database.sqlite
+**/__tests__/coverage
