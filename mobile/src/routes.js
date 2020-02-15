@@ -6,13 +6,14 @@ import { Back } from "./components/Icons";
 
 import Welcome from "./pages/Welcome";
 import Login from "./pages/Login";
+import Register from "./pages/Register";
 
 const Routes = createAppContainer(
   createStackNavigator({
     Welcome: {
       screen: Welcome,
       navigationOptions: () => ({
-        header: null
+        headerShown: false
       })
     },
     Login: {
