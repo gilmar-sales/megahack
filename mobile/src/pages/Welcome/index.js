@@ -11,6 +11,7 @@ export default function Welcome({ navigation }) {
   return (
     <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
       <Text>Welcome</Text>
+      <RoundedButton title="Criar uma conta" onPress={() => navigation.navigate("Register")} />
       <TouchableOpacity onPress={handleOnPress}>
         <Text>Já tenho uma conta</Text>
       </TouchableOpacity>

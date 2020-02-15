@@ -22,6 +22,14 @@ const Routes = createAppContainer(
         headerTransparent: true,
         headerLeft: () => <Back navigation={navigation} />
       })
+    },
+    Register: {
+      screen: Register,
+      navigationOptions: ({ navigation }) => ({
+        title: "",
+        headerTransparent: true,
+        headerLeft: () => <Back navigation={navigation} />
+      })
     }
   })
 );
